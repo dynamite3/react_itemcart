@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+
+
+
+.headercontent{
+ padding: 5px;
+ margin-top: -30px;
+ background-color: rgb(26, 24, 24);
+
+}
+.headercontent >h1{
+  color: aliceblue;
+  font-size: 80px;
+  font-weight: 1000;
+  letter-spacing: 5px;
+  
+}
+.headercontent >h3{
+  color: aliceblue;
+  margin-top: -30px;
+}
+.headercontent >button{
+  margin:1rem
+}
+
+.cartbt >b{
+  font-size: xx-large;
+  margin-top: 30px;
+}
+
+
+.maincontent{
+
+  display: flex;
+  padding: 50px;
+  justify-items: center; 
+  justify-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+  width:300px;
+  border: solid black 2px;
+  border-radius: 5px;
+  margin: 1rem;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card >h1{
+  margin: -8px;
+  padding-top: 10px;
+}
+
+.card >h4{
+  
+  margin: initial;
+  
+}
+
+.dis{
+  
+  margin-block-start: inherit;
+
+}
+.card >p{
+    margin: initial;
+}
+
+.card >Button{
+  
+  margin-bottom: 20px;
+  margin-top: auto;
+  
+}
+.disimg{
+  max-width: 100%;
+  height: auto;
+
+}
+
+.container {
+  position: relative;
+
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  background-color: black;
+  color: white;
+  top: -1px;
+  top: 8px;
+  right: 8px;
+  padding: 5px ;
+  
+}
+
+
+.cartlist{
+  display:flex ;
+  gap: 1rem;
+}
